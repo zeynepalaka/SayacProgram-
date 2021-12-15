@@ -1,0 +1,84 @@
+* {
+    margin: 0px;
+    padding: 0px;
+  }
+  body {
+    background-color: rgb(121, 126, 192);
+  }
+  .container {
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .kutu {
+    height: 250px;
+    width: 250px;
+    background-color: rgb(109, 57, 230);
+    text-align: center;
+    line-height: 250px;
+    border-radius: 125px;
+    border: 5px solid white;
+  }
+  .durum {
+    height: 80px;
+    width: 250px;
+    background-color: rgb(134, 79, 196);
+    color: white;
+    text-align: center;
+    line-height: 80px;
+    font-size: 30px;
+    display: none;
+  }
+  .gorun {
+    display: block !important;
+  }
+  .deger {
+    color: white;
+    font-size: 80px;
+  }
+  h2 {
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    font-size: 52px;
+    margin-bottom: 40px;
+    font-family: "Courgette", cursive;
+    word-spacing: 3px;
+    letter-spacing: 7px;
+    color: black;
+    text-shadow: 5px 5px 5px white;
+  }
+  .tetik {
+    background-color: black;
+    border-radius: 0px;
+  }
+  .buton-grup {
+    margin: 20px 0px;
+  }
+  button {
+    height: 40px;
+    width: 100px;
+    margin-right: 15px;
+    outline: none;
+    color: black;
+    background-color: rgb(170, 207, 231);
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  input {
+    height: 30px;
+    padding: 10px;
+    outline: none;
+    color: rgb(131, 79, 155);
+    font-weight: bold;
+    font-size: 18px;
+    border-radius: 15px;
+    width: 150px;
+  }
+  button:hover {
+    cursor: pointer;
+    background-color: coral;
+  }
+  
